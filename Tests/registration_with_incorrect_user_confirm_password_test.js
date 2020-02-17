@@ -22,7 +22,7 @@ Scenario('registration_with_incorrect_user_confirm_password', (I) => {
         I.wait(1);
         I.click('//*[@id="user-registration-form-5"]/form/div[2]/button');
         I.wait(1);
-        I.saveScreenshot('success_registration.png');
+        I.saveScreenshot('incorrect_user_confirm_password.png');
         I.wait(1);
 
 });
