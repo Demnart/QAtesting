@@ -8,7 +8,7 @@ exports.config = {
       host: 'localhost',
       port : 4444,
       restart: false,
-      windowsSize: 'maximize',
+      windowSize: "maximize",
       smartWait: 5000,
       timeouts: {
 	 "script": 60000,
